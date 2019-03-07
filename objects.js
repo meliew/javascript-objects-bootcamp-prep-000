@@ -1,8 +1,8 @@
 var playlist = { madonna: "like a prayer"};
 
 
-function updatePlaylist(playlist, artist, song) {
+function updatePlaylist(playlist, artistName, songTitle) {
 
-  return playlist.assign({}, playlist, artist, song)
+  return playlist.assign({}, playlist, artistName, songTitle)
 
 }
